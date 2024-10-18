@@ -22,9 +22,9 @@ services:
       - POSTGRES_DATABASE=automatisch
       - POSTGRES_USERNAME=automatisch_user
       - POSTGRES_PASSWORD=automatisch_password
-      - ENCRYPTION_KEY
-      - WEBHOOK_SECRET_KEY
-      - APP_SECRET_KEY
+      - ENCRYPTION_KEY=0d056282-179b-4afa-aafa-ce4d25a6f59b
+      - WEBHOOK_SECRET_KEY=444d4548-0145-4ee9-b89a-71fbf2cdfbf3
+      - APP_SECRET_KEY=29bf6f95-eec9-4afc-833e-50f6c3b371e3
     volumes:
       - automatisch_storage:/automatisch/storage
   worker:
